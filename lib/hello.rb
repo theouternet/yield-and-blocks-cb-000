@@ -1,4 +1,5 @@
 def hello_t(names)
+<<<<<<< HEAD
 if block_given?
   i = 0 
   while i < names.length 
@@ -16,3 +17,8 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   end
 end
+=======
+  names.each do 
+
+
+>>>>>>> d5101a3b2b75cef3158b61b3985d33638fbd10aa
